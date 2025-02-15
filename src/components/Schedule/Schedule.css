@@ -1,0 +1,52 @@
+.schedule-section {
+  padding: 6rem 2rem;
+  background: #0d0f14;
+  color: white;
+  text-align: center;
+}
+
+.schedule-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.schedule-title {
+  font-size: 2.5rem;
+  color: #00FF88;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-family: "Orbitron", sans-serif;
+}
+
+.schedule-list {
+  list-style: none;
+  padding: 0;
+}
+
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  font-family: "Orbitron", sans-serif;
+
+}
+
+.schedule-item:hover {
+  transform: translateY(-3px);
+}
+
+.schedule-time {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #00FF88;
+}
+
+.schedule-event {
+  font-size: 1rem;
+  color: #ffffff;
+}
